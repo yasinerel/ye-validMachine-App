@@ -8,7 +8,7 @@ export default function App() {
 
   const handleCheckPhoneNumber = () => {
     setIsValid(isValidPhoneNumber(phoneNumber));
-  };
+  }; 
 
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
